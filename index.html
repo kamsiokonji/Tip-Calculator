@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Tip calculator app</title>
+  </head>
+  <body>
+    <div class="main">
+      <img src="/images/logo.svg" alt="" />
+    </div>
+
+    <div class="container" id="container">
+      <form class="form">
+        <label for="bill" class="bill">Bill</label>
+        <div class="dollar">
+          <span id="sign"><img src="/images/icon-dollar.svg" alt="" /></span>
+          <input type="number" id="bill" placeholder="0" />
+        </div>
+        <br />
+
+        <div class="compute">
+          <span class="selecttip">Select Tip %</span><br />
+          <button type="submit" id="five-percent">5%</button>
+          <button type="submit" id="ten-percent">10%</button>
+          <button type="submit" id="fifteen-percent">15%</button><br />
+          <button type="submit" id="twentyfive-percent">25%</button>
+          <button type="submit" id="fifty-percent">50%</button>
+          <input type="number" type="submit" id="custom" placeholder="Custom" />
+        </div>
+        <br /><br />
+
+        <label for="people" class="nop">Number of People</label>
+        <div class="head">
+          <span id="figure"><img src="/images/icon-person.svg" alt="" /></span>
+          <input type="number" id="people" placeholder="0" required />
+        </div>
+      </form>
+
+      <div class="form2">
+        <div class="tipamount">
+          <div>
+            <span class="tip">Tip Amount</span><br />
+            <span class="person">/ person</span>
+          </div>
+          <div class="money">
+            <span class="dollarsign">$</span>
+            <span class="amount" id="amount">0.00</span>
+          </div>
+        </div>
+        <br />
+
+        <div class="total">
+          <div>
+            <span class="total1">Total</span><br />
+            <span class="person2">/ person</span>
+          </div>
+          <div class="money2">
+            <span class="dollarsign2">$</span>
+            <span class="amount2">0.00</span>
+          </div>
+        </div>
+        <br /><br />
+
+        <button id="reset">RESET</button>
+      </div>
+    </div>
+
+    <!-- <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </footer>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style> -->
+    <script src="/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,388 @@
+body {
+  margin: auto;
+  text-align: center;
+  background-color: hsl(185, 41%, 84%);
+  font-family: "Space Mono", monospace;
+}
+
+.main {
+  margin-top: 6rem;
+}
+
+.container {
+  display: flex;
+  width: 700px;
+  height: 300px;
+  margin: auto;
+  margin-top: 3rem;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  gap: 1rem;
+}
+
+.container .form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 1rem;
+  color: hsl(184, 14%, 56%);
+  font-size: small;
+  font-weight: 700;
+}
+
+.container .form #bill {
+  width: 19rem;
+  color: hsl(183, 100%, 15%);
+}
+
+.container .form #bill:hover {
+  border: 2px hsl(172, 67%, 45%);
+}
+
+.container .form .dollar {
+  display: flex;
+  position: relative;
+}
+
+.container .form .dollar #sign {
+  display: flex;
+  position: absolute;
+  padding: 12px;
+}
+
+.container .form .compute #five-percent {
+  width: 6rem;
+  padding: 3px;
+  border-radius: 3px;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: medium;
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  margin-top: 10px;
+  border: none;
+}
+
+.container .form .compute #five-percent:hover {
+  background-color: hsl(172, 67%, 45%);
+  border: none;
+}
+
+.container .form .compute #five-percent:active {
+  background-color: hsl(172, 67%, 45%);
+}
+
+.container .form .compute #ten-percent {
+  width: 6rem;
+  padding: 3px;
+  border-radius: 3px;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: medium;
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  border: none;
+}
+
+.container .form .compute #ten-percent:hover {
+  background-color: hsl(172, 67%, 45%);
+  border: none;
+}
+
+.container .form .compute #fifteen-percent {
+  width: 6rem;
+  padding: 3px;
+  border-radius: 3px;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: medium;
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  border: none;
+}
+
+.container .form .compute #fifteen-percent:hover {
+  background-color: hsl(172, 67%, 45%);
+  border: none;
+}
+
+.container .form .compute #twentyfive-percent {
+  width: 6rem;
+  padding: 3px;
+  border-radius: 3px;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: medium;
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  margin-top: 10px;
+  border: none;
+}
+
+.container .form .compute #twentyfive-percent:hover {
+  background-color: hsl(172, 67%, 45%);
+  border: none;
+}
+
+.container .form .compute #fifty-percent {
+  width: 6rem;
+  padding: 3px;
+  border-radius: 3px;
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-size: medium;
+  background-color: hsl(183, 100%, 15%);
+  color: white;
+  border: none;
+}
+
+.container .form .compute #fifty-percent:hover {
+  background-color: hsl(172, 67%, 45%);
+  border: none;
+}
+
+.container .form .compute #custom {
+  width: 6rem;
+  padding: 2px;
+  color: hsl(183, 100%, 15%);
+}
+
+.container .form #people {
+  width: 19rem;
+  color: hsl(183, 100%, 15%);
+}
+
+.container .form .head {
+  display: flex;
+  position: relative;
+}
+
+.container .form .head #figure {
+  display: flex;
+  position: absolute;
+  padding: 12px;
+}
+
+.container .form2 {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: hsl(183, 100%, 15%);
+  height: 240px;
+  width: 350px;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.container .form2 .tipamount {
+  display: flex;
+  gap: 9rem;
+}
+
+.container .form2 .tipamount .tip {
+  color: white;
+  font-size: x-small;
+  font-weight: 700;
+}
+
+.container .form2 .tipamount .person {
+  color: hsl(186, 14%, 43%);
+  font-weight: 700;
+  font-size: xx-small;
+}
+
+.container .form2 .tipamount .money {
+  display: flex;
+  color: hsl(172, 67%, 45%);
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.container .form2 .tipamount .amount {
+  font-size: x-large;
+  color: hsl(172, 67%, 45%);
+  font-weight: 700;
+}
+
+.container .form2 .total .total1 {
+  color: white;
+  font-size: x-small;
+  font-weight: 700;
+}
+
+.container .form2 .total {
+  display: flex;
+  gap: 10rem;
+}
+
+.container .form2 .total .person2 {
+  color: hsl(186, 14%, 43%);
+  font-weight: 700;
+  font-size: xx-small;
+}
+
+.container .form2 .total .money2 {
+  display: flex;
+  color: hsl(172, 67%, 45%);
+  font-size: x-large;
+  font-weight: 700;
+}
+
+.container .form2 .total .amount2 {
+  font-size: x-large;
+  color: hsl(172, 67%, 45%);
+  font-weight: 700;
+}
+
+.container .form2 #reset {
+  padding: 10px;
+  background-color: hsl(172, 67%, 45%);
+  color: hsl(183, 100%, 15%);
+  border-radius: 5px;
+  border: none;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+.container .form2 #reset:hover {
+  background-color: hsl(172, 86%, 60%);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button,
+input::-webkit-input-placeholder,
+input[type="number"] {
+  -webkit-appearance: none;
+  margin: 0;
+  text-align: right;
+  font-family: "Space Mono", monospace;
+  font-size: 24px;
+  font-weight: 700;
+  border: none;
+  background-color: hsl(189, 41%, 97%);
+  color: hsl(184, 14%, 56%);
+  margin-top: 2px;
+}
+
+@media screen and (max-width: 380px) {
+  .main {
+    margin-top: 2rem;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 900px;
+    border-radius: 30px 30px 0px 0px;
+    padding: 1rem;
+  }
+
+  .container .form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container .form .bill {
+    font-size: medium;
+  }
+
+  .container .form #bill {
+    width: 18rem;
+    color: hsl(183, 100%, 15%);
+    padding: 5px;
+    margin-top: 5px;
+  }
+
+  .container .form .selecttip {
+    font-size: medium;
+  }
+
+  .container .form .compute #five-percent {
+    width: 9rem;
+    padding: 11px;
+    border-radius: 5px;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: large;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    margin-top: 20px;
+    border: none;
+  }
+
+  .container .form .compute #ten-percent {
+    width: 9rem;
+    padding: 11px;
+    border-radius: 5px;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: large;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    margin-top: 10px;
+    border: none;
+  }
+
+  .container .form .compute #fifteen-percent {
+    width: 9rem;
+    padding: 11px;
+    border-radius: 5px;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: large;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    margin-top: 10px;
+    border: none;
+  }
+
+  .container .form .compute #twentyfive-percent {
+    width: 9rem;
+    padding: 11px;
+    border-radius: 5px;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: large;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    margin-top: 10px;
+    border: none;
+  }
+
+  .container .form .compute #fifty-percent {
+    width: 9rem;
+    padding: 11px;
+    border-radius: 5px;
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-size: large;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    margin-top: 10px;
+    border: none;
+  }
+
+  .container .form .compute #custom {
+    width: 8rem;
+    padding: 8px;
+  }
+
+  .container .form .nop {
+    font-size: medium;
+  }
+
+  .container .form #people {
+    width: 18rem;
+    color: hsl(183, 100%, 15%);
+    padding: 5px;
+    margin-top: 5px;
+  }
+
+  .container .form2 {
+    width: fit-content;
+    border-radius: 20px;
+    height: 200px;
+  }
+}
